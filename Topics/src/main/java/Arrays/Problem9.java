@@ -23,7 +23,7 @@ public class Problem9 {
             for(int j=0; j<i; j++)
             {
                 // if current value "arr[j]" is greater than "arr[i]"
-                // and it's length+1 is greater than already value present in res[i]
+                // and it's length+1 is greater than value already present in res[i]
                 // ex: 10,22,9,33   possible inc. sub seq.: {10,22,33},{9,33} so pick longest one.
                 if(arr[i] > arr[j] && res[i] < res[j]+1)
                 {
